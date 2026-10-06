@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/datisthq/fairspec-cardealer/compare/v0.4.0...v0.4.1) (2026-10-06)
+
+
+### Bug Fixes
+
+* **ci:** look up the release PR instead of reading the action output ([15d8f81](https://github.com/datisthq/fairspec-cardealer/commit/15d8f812c84169fc07a8abc07d158ec428a47824))
+
 ## [0.4.0](https://github.com/fairspec/fairspec-cardealer/compare/v0.3.0...v0.4.0) (2026-01-22)
 
 ### Features
