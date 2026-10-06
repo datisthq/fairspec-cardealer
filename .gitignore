@@ -72,5 +72,5 @@ messages.js
 tmuxp.yaml
 /docs/reference/
 /.livemark/build/
-/.claude/settings.local.json
+/.claude/
 .tanstack/
