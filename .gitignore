@@ -73,4 +73,5 @@ tmuxp.yaml
 /docs/reference/
 /.livemark/build/
 /.claude/
+/.cursor/
 .tanstack/
