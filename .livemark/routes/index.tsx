@@ -2,15 +2,19 @@ import { Link, createFileRoute } from "@tanstack/react-router"
 import {
   BookOpen,
   Building2,
+  Car,
   Code,
   CodeXml,
   Cog,
+  Database,
   FileJson2,
   GitBranch,
   Github,
   ListChecks,
+  MapPin,
   Rocket,
   ScrollText,
+  Store,
   Waypoints,
 } from "lucide-react"
 import type { ReactNode } from "react"
@@ -171,6 +175,7 @@ function Landing() {
 const slides: Slide[] = [
   {
     id: "dataset",
+    icon: Database,
     title: "Dataset",
     content: <SpecPreview />,
     source: {
@@ -185,6 +190,7 @@ const slides: Slide[] = [
   },
   {
     id: "dealer",
+    icon: Store,
     title: "Dealer",
     content: <SlideCode code={dealerSample} />,
     source: {
@@ -195,6 +201,7 @@ const slides: Slide[] = [
   },
   {
     id: "facility",
+    icon: MapPin,
     title: "Facility",
     content: <SlideCode code={facilitySample} />,
     source: {
@@ -205,6 +212,7 @@ const slides: Slide[] = [
   },
   {
     id: "car",
+    icon: Car,
     title: "Car",
     content: <SlideCode code={carSample} />,
     source: {
