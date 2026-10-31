@@ -9,7 +9,7 @@ This file provides guidance to coding agents when working with code in this repo
 - Run type checking as part of your tasks
 - Don't run linting as part of your tasks
 - Start plan from a summary a new/updated API summary (models/signatures) and most challenging points, continue plan using your default settings
-- **After every task, check whether a skill in `.agents/skills/` needs updating, and update it in the same commit.** Read the task description for what it taught: a new convention, a correction to how the work was done, or a decision about how an area should look or behave. Write that into the skill for that area, so the next session follows it without being told again. When no skill covers the area and the lesson will recur, add one.
+- **After every task, record any lesson it taught** in the same commit (**`agent-documentation`**).
 
 ## Sections
 
@@ -51,6 +51,7 @@ its area. Each is named `<subject>-<facet>`, subject first (`change-review`):
 
 | skill                     | when                                                                   |
 | ------------------------- | ---------------------------------------------------------------------- |
+| `agent-documentation`     | writing a session's lesson into a skill or `AGENTS.md`                 |
 | `monorepo-layout`         | adding a script, CI job, version constant or page; where things live   |
 | `standard-development`    | changing `standard/` — the sync checklist across twins, cases and docs |
 | `conformance-development` | adding or fixing conformance cases                                     |
